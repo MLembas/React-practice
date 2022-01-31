@@ -1,0 +1,52 @@
+
+.pt{
+   width: 900px;
+   margin: 18px auto;
+   padding: 10px 0;
+   border: 2px solid lightslategrey;
+   color:sandybrown;
+   font-size: 20px;
+}
+.protoType__title{
+   font-size: 32px;
+   opacity: 0.9;
+   font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+line-height: 45px;
+text-decoration: none;
+
+}
+.li{
+   text-decoration: none;
+}
+.id{
+   padding-right: 1rem;
+}
+.title{
+   display: flex;
+   flex-direction: row;
+   padding-left: 40px;
+   margin: 1rem;
+   align-items: center;
+   font-size: 32px;
+   opacity: 0.9;
+   font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+line-height: 45px;
+text-decoration: none;
+}
+.body{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.d__body{
+   padding-left: 54px;
+   
+}
+.d__del{
+   padding-right: 10px;
+
+}

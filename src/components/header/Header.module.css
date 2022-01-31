@@ -1,0 +1,48 @@
+.header{
+   display: flex;
+   flex-direction: row;
+}
+.header__logo{
+   margin-left: 54px;
+   margin-top: 4px;
+}
+.header__menu {
+   flex-grow: 1;
+ }
+
+ .header__menu li {
+   margin: 10px 80px 0 0;
+ }
+ .header__menu li:last-child {
+   margin-right: 0;
+ }
+ .header__menu li:first-child {
+   margin-left: 80px;
+ }
+ .header__menu a {
+   padding: 8px 10px;
+   color: #000;
+   text-decoration: none;
+ }
+
+.header__menu .active {
+  color: #fff;
+  background-color: #ff3d00;
+  border-radius: 8px;
+}
+.header__menu ul {
+   display: flex;
+   flex-flow: row nowrap;
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   line-height: 18px;
+   list-style: none;
+ }
+ .header__menu a,
+.header__menu .active { 
+   display: block;
+   padding: 8px 10px;
+   text-transform: uppercase;
+   letter-spacing: .27em;
+ }
