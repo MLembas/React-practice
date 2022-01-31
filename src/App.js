@@ -173,9 +173,7 @@ const addNewPost = (e) =>{
         </div>
         <div className='app__navbar'>
           <div className='nav__item1'>
-          <MyButton  onClick={getLoalPosts} >
-          Get local posts
-          </MyButton>
+          <MyButton  onClick={getLoalPosts}>Get local posts</MyButton>
           </div>
           <div className='nav__item'>
           <MyButton onClick={fetchPosts} className='nav__item'>Get JSON posts</MyButton>
